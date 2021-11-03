@@ -20,15 +20,32 @@ html {
   float: left;
 }
 
-div.container.wh90 {
+/* div.container-left-navbar.wh90 {
   width: 90%;
   margin: 0 auto;
+} */
+
+div.container-left-navbar ul {
+  padding: 1.5em 0 3em 1em;
+}
+
+div.container-left-navbar ul > li {
+  list-style: none;
+}
+
+div.container-left-navbar ul > li > a {
+  text-decoration: none;
+  color: gray;
 }
 /* testing */
-.container-left-navbar {
-  /* height: 100%; */
-  background-color: blue;
+.start-ul-navbar {
+  color: white;
 }
+
+.end-ul-navbar {
+  color: white;
+}
+/* /testing */
 
 main {
   width: 100%;
@@ -57,7 +74,15 @@ main div.left-navbar {
   background-color: black;
   height: 100%;
   width: 20%;
+  display: flex;
 }
+
+ div.container-left-navbar {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
 /* right column */
 main div.right-main-content {
   background-color: rgb(20, 25, 34);
