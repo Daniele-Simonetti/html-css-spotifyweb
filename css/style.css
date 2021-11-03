@@ -9,6 +9,9 @@ html {
   font-family: 'Montserrat', sans-serif;
 }
 
+body {
+  min-height: 10px;
+}
 .clearfix::after {
   content: '';
   display: table;
@@ -52,11 +55,19 @@ main div.right-main-content {
   background-color: rgb(20, 25, 34);
   width: 80%;
   height: 100%;
+  overflow: auto;
 }
 
 div .header-main-content {
+  position: fixed;
+  top: 0;
+  right: 0;
   height: 100px;
   width: 100%;
   background-color: black;
   opacity: 0.4;
+}
+
+div.right-main-content div.content-main {
+  margin-top: 12%;
 }
