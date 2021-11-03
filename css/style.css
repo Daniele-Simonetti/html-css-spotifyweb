@@ -8,18 +8,25 @@ html {
   font-size: 100%;
   font-family: 'Montserrat', sans-serif;
 }
+
 .clearfix::after {
   content: '';
-  clear: both;
   display: table;
+  clear: both;
 }
 
+.float-left {
+  float: left;
+}
 /* testing */
 main {
-  background-color: blue;
   width: 100%;
   height: calc(100vh - 100px);
   overflow: auto;
+}
+
+.main-container {
+  position: relative;
 }
 
 footer {
@@ -31,6 +38,25 @@ footer {
   left: 0;
 }
 
-.main-container {
-  position: relative;
+main div.clearfix {
+  height: 100%;
+}
+/* left column */
+main div.left-navbar {
+  background-color: black;
+  height: 100%;
+  width: 20%;
+}
+/* right column */
+main div.right-main-content {
+  background-color: rgb(20, 25, 34);
+  width: 80%;
+  height: 100%;
+}
+
+div .header-main-content {
+  height: 100px;
+  width: 100%;
+  background-color: black;
+  opacity: 0.4;
 }
