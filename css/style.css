@@ -9,6 +9,8 @@ html {
   font-family: 'Montserrat', sans-serif;
 }
 
+
+
 main {
   width: 100%;
   height: calc(100vh - 100px);
@@ -121,3 +123,21 @@ div.content-start-nav ul.nav-main > li > a {
   font-size: 0.8em;
   color: gray;
 }
+
+/* testing img sec */
+#test-title {
+  color: white;
+}
+
+#test-list {
+  display: flex;
+  list-style: none;
+  padding-left: 0;
+}
+
+.test-square{
+  width: 144px;
+  height: 144px;
+  border: 1px solid red;
+}
+
