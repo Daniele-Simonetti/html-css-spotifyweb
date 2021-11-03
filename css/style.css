@@ -107,3 +107,17 @@ div .header-main-content {
 div.right-main-content div.content-main {
   margin-top: 7em;
 }
+
+div.content-start-nav ul.nav-main {
+  display: flex;
+  justify-content: space-evenly;
+  list-style: none;
+}
+
+div.content-start-nav ul.nav-main > li > a {
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 0.8em;
+  color: gray;
+}
