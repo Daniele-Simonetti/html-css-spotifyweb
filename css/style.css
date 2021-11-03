@@ -9,9 +9,7 @@ html {
   font-family: 'Montserrat', sans-serif;
 }
 
-body {
-  min-height: 10px;
-}
+/* general rules */
 .clearfix::after {
   content: '';
   display: table;
@@ -21,7 +19,17 @@ body {
 .float-left {
   float: left;
 }
+
+div.container.wh90 {
+  width: 90%;
+  margin: 0 auto;
+}
 /* testing */
+.container-left-navbar {
+  /* height: 100%; */
+  background-color: blue;
+}
+
 main {
   width: 100%;
   height: calc(100vh - 100px);
@@ -59,15 +67,16 @@ main div.right-main-content {
 }
 
 div .header-main-content {
+  height: 100px;
+  width: 80%;
+  background-color: black;
+  opacity: 0.4;
   position: fixed;
   top: 0;
   right: 0;
-  height: 100px;
-  width: 100%;
-  background-color: black;
-  opacity: 0.4;
+  z-index: 1;
 }
 
 div.right-main-content div.content-main {
-  margin-top: 12%;
+  margin-top: 7em;
 }
