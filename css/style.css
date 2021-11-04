@@ -34,6 +34,10 @@ div .wh95 {
   width: 95%;
   margin: 0 auto;
 }
+
+.mgleft {
+  margin-left: 0.8em;
+}
 /* /general rules */
 
 /* testing */
@@ -107,8 +111,9 @@ div.right-main-content div.content-main {
   margin-top: 7em;
 }
 
-div.content-img-first-list {
-  padding: 3em 1em;
+div.content-img-first-list,
+div.content-img-second-list {
+  padding: 3em 1em 1em 1em;
 }
 
 div.content-start-nav ul.nav-main {
@@ -132,12 +137,22 @@ div.content-start-nav ul.nav-main > li > a {
   color: white;
   padding-bottom: 1.5em;
 }
-
+.subtitle-gray {
+  font-size: 0.5em;
+  color: gray;
+  padding-top: 1.5em;
+}
 #first-list {
-  display: flex;
   list-style: none;
+  display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
+  padding-left: 0;
+}
+
+#second-list {
+  list-style: none;
+  display: flex;
   padding-left: 0;
 }
 
