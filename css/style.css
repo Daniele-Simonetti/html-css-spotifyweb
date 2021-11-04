@@ -130,6 +130,7 @@ div.content-start-nav ul.nav-main > li > a {
 /* img section right column */
 .main-title {
   color: white;
+  padding-bottom: 1.5em;
 }
 
 #first-list {
@@ -156,7 +157,14 @@ div.img-name {
 
 .img-box-infos  h3 {
   color: white;
+  padding-top: 0.5em;
   padding-bottom: 0.8em;
+}
+
+.img-box-infos p {
+  font-size: 79%;
+  color: gray;
+  font-weight: bold;
 }
 /* testing media query */
 
