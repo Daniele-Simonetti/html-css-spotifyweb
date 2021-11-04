@@ -11,12 +11,6 @@ html {
 
 
 
-main {
-  width: 100%;
-  height: calc(100vh - 100px);
-  overflow: auto;
-}
-
 footer {
   background-color: red;
   width: 100%;
@@ -44,17 +38,23 @@ div .wh90 {
 
 /* testing */
 .start-ul-navbar {
+  width: 100%;
+  height: calc(100% - 80px);
   color: white;
 }
 
 .end-ul-navbar {
+  width: 100%;
+  height: 80px;
   color: white;
 }
 /* /testing */
 
 /* left column */
-.main-container {
-  position: relative;
+main {
+  width: 100%;
+  height: calc(100vh - 100px);
+  /* overflow: hidden; */
 }
 main div.clearfix {
   height: 100%;
@@ -63,25 +63,25 @@ main div.clearfix {
 main div.left-navbar {
   background-color: black;
   height: 100%;
+  min-height: 480px;
   width: 20%;
-  display: flex;
-  padding: 1em 0;
+
 }
 
- div.container-left-navbar {
+ /* div.container-left-navbar {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-}
-div.container-left-navbar ul {
+} */
+div.left-navbar ul {
   padding-left: 1em;
 }
 
-div.container-left-navbar ul > li {
+div.left-navbar ul > li {
   list-style: none;
 }
 
-div.container-left-navbar ul > li > a {
+div.left-navbar ul > li > a {
   text-decoration: none;
   color: gray;
 }
@@ -135,7 +135,7 @@ div.content-start-nav ul.nav-main > li > a {
   padding-left: 0;
 }
 
-.test-square{
+.test-square {
   width: 144px;
   height: 144px;
   border: 1px solid red;
