@@ -121,20 +121,39 @@ div.content-start-nav ul.nav-main > li > a {
   color: gray;
 }
 
-/* testing img sec */
-#test-title {
+/* img section right column */
+.main-title {
   color: white;
 }
 
-#test-list {
+#first-list {
   display: flex;
   list-style: none;
+  justify-content: space-between;
   padding-left: 0;
 }
 
-.test-square {
-  width: 144px;
-  height: 144px;
-  border: 1px solid red;
+.img-box-infos {
+  width: calc(90% / 6);
 }
 
+.playlist-img {
+  width: 100%;
+}
+
+
+
+/* testing media query */
+@media screen and (max-width: 600px) {
+  main div.left-navbar {
+    width: 50px;
+  }
+
+  main div.right-main-content {
+    width: calc(100% - 50px);
+  }
+
+  div .header-main-content {
+    width: calc(100% - 50px);
+  }
+}
