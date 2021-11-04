@@ -106,7 +106,9 @@ div .header-main-content {
 div.right-main-content div.content-main {
   margin-top: 7em;
 }
-
+div.content-img-first-list {
+  padding-top: 3em;
+}
 div.content-start-nav ul.nav-main {
   display: flex;
   flex-wrap: wrap;
@@ -147,6 +149,12 @@ div.content-start-nav ul.nav-main > li > a {
 
 
 /* testing media query */
+
+@media  screen and (max-width: 1100px) {
+  .img-box-infos {
+    width: 120px;
+  }
+}
 
 @media screen and (max-width: 700px) and (min-width: 601px) {
 
