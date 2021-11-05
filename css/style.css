@@ -9,8 +9,6 @@ html {
   font-family: 'Montserrat', sans-serif;
 }
 
-
-
 footer {
   background-color: rgb(40, 40, 40);
   width: 100%;
@@ -37,6 +35,12 @@ div .wh95 {
 
 .mgleft {
   margin-left: 0.8em;
+}
+
+a:hover,
+a:active,
+a:focus {
+  color: rgba(255, 255, 255, 1);
 }
 /* /general rules */
 
@@ -65,7 +69,6 @@ main div.left-navbar {
 .start-ul-navbar {
   width: 100%;
   height: calc(100% - 80px);
-  color: white;
   overflow: hidden;
 }
 
@@ -82,23 +85,56 @@ main div.left-navbar {
   margin-bottom: 2em;
 }
 
-.start-ul-navbar .left-navabr-first-list li {
-  padding-left: 1em;
-  border-left: 3px solid black;
-}
-
-.start-ul-navbar .left-navabr-first-list li.highlight {
+.start-ul-navbar .left-navbar-first-list li.highlight {
   padding-left: 1em;
   border-left: 3px solid rgb(168, 247, 46);
 }
 
-.start-ul-navbar .left-navabr-first-list img {
-  width: 30%;
+.start-ul-navbar .left-navbar-first-list img {
+  width: 15%;
   vertical-align: middle;
   opacity: 0.7;
 }
 
+.start-ul-navbar .left-navbar-first-list a:hover img {
+  opacity: 1;
+}
 
+.left-navbar .left-navbar-scroll-start {
+  height: 70%;
+  padding-left: 1em;
+  margin-bottom: 1em;
+}
+
+.left-navbar .left-navbar-scroll-start .scroll-start-title {
+  text-transform: uppercase;
+  font-size: 1em;
+  margin-bottom: 1em;
+}
+
+.left-navbar .fake-btn-add-playlist a {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1em;
+}
+
+.left-navbar .fake-btn-add-playlist .add-btn {
+  width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 0.5em;
+  font-size: 1em;
+  color: black;
+  background-color: rgba(255, 255, 255, 0.4);
+}
+
+.left-navbar .fake-playlist {
+  padding-bottom: 2.5em;
+  height: 70%;
+  overflow: auto;
+}
 
 .end-ul-navbar {
   width: 100%;
@@ -107,18 +143,16 @@ main div.left-navbar {
 }
 
 div.left-navbar ul {
-  padding-left: 1em;
+  padding-left: 0;
   list-style: none;
 }
 
 div.left-navbar ul > li {
   list-style: none;
+  padding-left: 1em;
+  border-left: 3px solid black;
 }
 
-div.left-navbar ul > li > a {
-  text-decoration: none;
-  color: gray;
-}
 
 a {
   text-decoration: none;
@@ -166,7 +200,6 @@ div.content-start-nav ul.nav-main > li > a {
   text-transform: uppercase;
   font-weight: 700;
   font-size: 0.8em;
-  color: gray;
 }
 
 /* img section right column */
