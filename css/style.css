@@ -149,7 +149,7 @@ main div.left-navbar {
   justify-content: center;
   align-items: center;
   margin-right: 0.5em;
-  font-size: 1em;
+  font-size: 1.8em;
   color: black;
   background-color: rgba(255, 255, 255, 0.4);
 }
@@ -189,6 +189,10 @@ main div.left-navbar {
   margin: 1em auto;
   padding: 1em 0;
   border-top: 1px solid gray;
+}
+
+.end-ul-navbar div.fake-btn-add-playlist a {
+  color: white;
 }
 
 /* right column */
