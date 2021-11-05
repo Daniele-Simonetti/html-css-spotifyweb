@@ -48,9 +48,6 @@ div.hide a{
 }
 /* /general rules */
 
-/* testing */
-/* /testing */
-
 /* left column */
 main {
   width: 100%;
@@ -367,12 +364,17 @@ div.img-name {
     width: 50px;
   }
 
-  div.left-navbar div.left-navbar-scroll-start {
+  div.left-navbar div.left-navbar-scroll-start,
+  div.left-navber div.start-ul-navbar {
     display: none;
   }
 
   .start-ul-navbar {
     height: calc(100% - 120px);
+  }
+
+  .end-ul-navbar {
+    height: calc(100% - 780px);
   }
   
   .end-ul-navbar ul.download-app,
@@ -383,9 +385,23 @@ div.img-name {
 
   .end-ul-navbar div.hide {
     text-align: center;
+    height: 50%;
   }
 
-  .end-ul-navbar div.hide a {
+  .end-ul-navbar div.hide img.hide-img {
+    background-color: gray;
+    border-radius: 50px;
+    width: 60%;
+    padding: 0.5em 0.5em;
+    font-size: 0em;
+  }
+
+  .end-ul-navbar div.hide img.hide-download {
+    opacity: 0.7;
+  }
+
+  .end-ul-navbar div.hide a,
+  .end-ul-navbar div.fake-btn-user .hide  {
     display: block;
   }
 
