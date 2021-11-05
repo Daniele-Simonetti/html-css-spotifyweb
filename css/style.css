@@ -171,6 +171,10 @@ main div.left-navbar {
   color: white;
 }
 
+.start-ul-navbar div.hide div.logo-hide {
+  display: none;
+}
+
 .end-ul-navbar li img{
   width: 6%;
   vertical-align: middle;
@@ -373,12 +377,16 @@ div.img-name {
     height: calc(100% - 120px);
   }
 
+
+
   .end-ul-navbar {
     height: calc(100% - 780px);
   }
   
   .end-ul-navbar ul.download-app,
-  .end-ul-navbar div.fake-btn-user {
+  .end-ul-navbar div.fake-btn-user,
+  div.logo,
+  div.left-navbar-first-list {
     display: none;
   }
 
@@ -400,9 +408,22 @@ div.img-name {
     opacity: 0.7;
   }
 
+  .start-ul-navbar div.hide a,
+  .start-ul-navbar div.hide div.logo-hide,
+  .start-ul-navbar div.hide div.left-navbar-first-list-hide {
+    display: block;
+    width: 90%;
+    margin: 1em auto;
+  }
+
   .end-ul-navbar div.hide a,
   .end-ul-navbar div.fake-btn-user .hide  {
     display: block;
+  }
+
+  .start-ul-navbar div.hide a img {
+    width: 100%;
+    margin: 0 auto;
   }
 
   .end-ul-navbar div.hide a img {
