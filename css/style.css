@@ -519,10 +519,19 @@ div.hide-player-icon-box:hover .hide-player-icon {
   display: block;
 }
 
-/* div.hide-player-icon-box div.hide-player-icon:hover {
-  display: block;
-} */
+footer div.left-footer-column div.footer-song-title p:hover a {
+  text-decoration: underline;
+}
 
+footer div.middle-footer-column div.middle-fake-scrollbar-box div.fake-middle-scrollbar:hover span.scroll-bar-timing{
+  background-color: lightgreen;
+  cursor: pointer;
+}
+
+footer div.right-footer-column div.btn-footer-right ul li.right-scrollbar-box div.right-footer-scrollbar:hover span.scroll-bar-timing-right {
+  background-color: lightgreen;
+  cursor: pointer;
+}
 
 /* media query */
 
